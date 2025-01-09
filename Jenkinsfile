@@ -5,7 +5,7 @@ pipeline {
         stage('Clonar Código') {
             steps {
                 // Clona el código desde el repositorio de GitHub
-                git url: 'https://github.com/usuario/nombre-del-repositorio.git', branch: 'main'
+                git url: 'https://github.com/Basualto/eva02.git', branch: 'main'
             }
         }
         
